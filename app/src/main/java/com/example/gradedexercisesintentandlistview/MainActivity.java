@@ -54,25 +54,25 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.androidimage19
     };
     String[] AndroidDescription = {
-            "Android 1.0",
-            "Android 1.1",
-            "CupCake",
-            "Donut",
-            "Eclair",
-            "Froyo",
-            "Gingerbread",
-            "Honeycomb",
-            "Ice Cream Sandwich",
-            "Jelly Bean",
-            "KitKat",
-            "Lollipop",
-            "Marshmallow",
-            "Nougat",
-            "Oreo",
-            "Pie",
-            "Android 10",
-            "Android 11",
-           "Android 12"
+            "Android 1.0 is the very first version of..",
+            "Android 1.1 had all the features that.. ",
+            "CupCake  introduced numerous...",
+            "Donut operate on a variety of different",
+            "Eclair was its successor...",
+            "Froyo operating system is the...",
+            "Gingerbread in 2010, Android's first..",
+            "Honeycomb is unique in that it is...",
+            "Ice Cream Sandwich improves...",
+            "Jelly Bean improves on the speed..",
+            "Android 4.4 KitKat is an Android version..",
+            "With the introduction of Android 5.0..",
+            "Android 6.0 Marshmallow was",
+            "Google released Android Nougat...",
+            "It was also the first Android..",
+            "In August of 2018, the aroma.",
+            "Android environment has changed...",
+            "Android 11, which was released...",
+           "Android 12 is our most personal.."
     };
 
     @Override
