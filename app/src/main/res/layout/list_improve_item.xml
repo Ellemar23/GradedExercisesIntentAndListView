@@ -18,41 +18,37 @@
 
         <ImageView
             android:id="@+id/AndroidImage"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="77dp"
+            android:layout_height="71dp"
             android:layout_marginEnd="12dp"
-            android:src="@drawable/ic_launcher_background"
-            android:scaleType="centerCrop"
             android:contentDescription="Android Image"
-            />
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="209dp"
+            android:layout_height="68dp"
             android:layout_weight="1"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/VersionTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Android Version"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="#212121"
                 android:layout_marginBottom="4dp"
-                />
+                android:text="Android Version"
+                android:textColor="#212121"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/DescriptionTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A beautiful place to explore."
-                android:textSize="14sp"
-                android:textColor="#757575"
                 android:layout_marginTop="4dp"
-                />
+                android:text="A beautiful place to explore."
+                android:textColor="#757575"
+                android:textSize="14sp" />
         </LinearLayout>
 
     </LinearLayout>
