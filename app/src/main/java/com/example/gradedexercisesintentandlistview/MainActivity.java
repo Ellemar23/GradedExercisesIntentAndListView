@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
 
             // CityAdapter adapter = new CityAdapter(this, cityNames, cityImages);
-            AndroidAdapterActivity adapter = new AndroidAdapterActivity(this, AndroidVersion, AndroidImages);
+            AndroidAdapterActivity adapter = new AndroidAdapterActivity(this, AndroidVersion, AndroidImages, AndroidDescription);
             listView.setAdapter(adapter);
 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
